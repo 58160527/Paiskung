@@ -1923,7 +1923,12 @@ button.alt:hover,
 }
 
 .dark .feature-icon .icon {
-    background: rgba(255, 255, 255, 0.15);
+    position: relative;
+    margin: 0;
+    background-image: url("../lab01/Profile_lab01.jpg");
+    background-size: 60%;
+    background-position: center , center center;
+    background-repeat: repeat, no-repeat;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
     color: #fff;
 }
