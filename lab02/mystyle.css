@@ -1445,10 +1445,21 @@ article:last-child {
     margin-bottom: 0;
 }
 
+/*Top*/
+.Top img {
+    position: fixed;
+    right: 0;
+    display: block;
+    width: 10%;
+    border-radius: 0.5em;
+}
+
+
 
 /* Image */
 
 .image {
+    
     position: relative;
     display: inline-block;
     border: 0;
@@ -1465,8 +1476,11 @@ article:last-child {
 }
 
 .image img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
     display: block;
-    width: 100%;
+    width: 10%;
     border-radius: 0.5em;
 }
 
@@ -1926,8 +1940,8 @@ button.alt:hover,
     position: relative;
     margin: 0;
     background-image: url("../lab01/Profile_lab01.jpg");
-    background-size: 60%;
-    background-position: center , center center;
+    background-size: 90%;
+    background-position: top , center center;
     background-repeat: repeat, no-repeat;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
     color: #fff;
