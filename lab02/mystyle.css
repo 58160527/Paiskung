@@ -1,7 +1,31 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
-
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,
+html,
+h3,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
 img,
 ins,
 kbd,
@@ -31,7 +55,7 @@ label,
 legend,
 table,
 caption,
-tbody,
+th3,
 tfoot,
 thead,
 tr,
@@ -62,7 +86,6 @@ video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
 }
 
 article,
@@ -99,11 +122,6 @@ q:before,
 q:after {
     content: '';
     content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
 }
 
 body {
@@ -1446,12 +1464,9 @@ article:last-child {
 }
 
 
-
-
 /* Image */
 
 .image {
-    
     position: relative;
     display: inline-block;
     border: 0;
@@ -1761,6 +1776,35 @@ table {
     width: 100%;
 }
 
+table.time {
+    width: 100%;
+    border: "0";
+    padding: 15px;
+    text-align: center;
+}
+
+tr.time {
+    background-color: #515151;
+}
+
+tr.day {
+    background-color: #F0F0f0;
+}
+
+td.day {
+    background-color: #A0A0A0;
+    color: #ffffff;
+}
+
+td.sub {
+    background-color: #C0D0FF;
+    color: #000;
+}
+
+td.time {
+    color: #ffffff;
+}
+
 table.default {
     width: 100%;
     border-collapse: collapse;
@@ -1883,7 +1927,6 @@ button.alt:hover,
 }
 
 
-
 /* Feature Icon */
 
 .feature-icon {
@@ -1934,7 +1977,7 @@ button.alt:hover,
     margin: 0;
     background-image: url("../lab01/Profile_lab01.jpg");
     background-size: 90%;
-    background-position: top , center center;
+    background-position: top, center center;
     background-repeat: repeat, no-repeat;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
     color: #fff;
@@ -2265,4 +2308,12 @@ button.alt:hover,
     .main>.content h3 {
         font-size: 1.25em;
     }
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------*/
+
+h1.time {
+    color: black;
 }
