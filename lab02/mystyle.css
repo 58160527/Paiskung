@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+    @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
 html,
 h3,
@@ -2340,9 +2340,75 @@ div.desc {
 }
 
 body.gall {
-    background-image: url ("image/BG_font.jpg");
+    position: relative;
+    margin: 0;
+    background-color: wheat;
 }
 
 iop {
     font-size: 50;
 }
+
+
+/*___________________________________________________________________________________________________________________________________________________________
+__
+__
+__
+__
+*/
+
+body.enllo {
+    background-color: #3e94ec;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+table.enllo {
+    display: table;
+    width: 100%;
+    background: #fff;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caption {
+    display: block;
+    width: 100%;
+    background: #64e0ef;
+    height: 55px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 55px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+}
+
+.header-row {
+    background: #8b8b8b;
+    color: #fff;
+}
+
+.row-enllo {
+    display: table-row;
+}
+
+.cell-enllo {
+    display: table-cell;
+    padding: 6px;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.primary {
+    text-align: left;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: none;
+}
+
+@media only screen and (max-width: 760px) {
