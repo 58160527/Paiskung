@@ -4,7 +4,7 @@
 
 <head>
 
-  <title>Bootstrap_Lab03</title>
+  <title>Gird</title>
 
   <meta charset="utf-8">
 
@@ -123,9 +123,9 @@
 
             <ul class="nav nav-pills nav-stacked">
 
-        <li class="active"><a href="lab03.html">Home</a></li>
+        <li><a href="lab03.html">Home</a></li>
 
-        <li><a href="Grid.html">Grid With Bootstrap</a></li>
+        <li  class="active" ><a href="Grid.html">Grid With Bootstrap</a></li>
 
         <li><a href="Form.html">FORM in Bootstrap</a></li>
 
@@ -171,23 +171,23 @@
 
       <br><br>
 
-      
+      <h3>Grid System คืออะไร ?</h3>
+
+      <p>ถ้าพูดกันแบบบ้านๆ ทั่วไปเราก็คงจะบอกว่าเป็น Layout ที่คอยควบคุมวัตถุต่างๆ บนหน้าเว็บไซต์ให้แสดงผลได้อย่างถูกต้องตามหลัก box layout ซึ่งจะส่งผลดีต่อการเขียนหนึ่งหน้าเว็บไซต์ แต่สามารถใช้ร่วมกับอุปกรณ์ทุกขนาดหน้าจอ Grid system ของ Bootstrap เอง แบ่งออกเป็น 12 คอลัมน์ ถ้าให้เห็นภาพง่ายขึ้นก็น่าจะต้องบอกว่า เหมือนกับตาราง 1 แถว มี 12 คอลัมน์ประมาณนั้น ซึ่งหน่วยที่เป็น 12 นี้ เราสามารถเฉลี่ยแต่ละส่วนได้ตามความต้องการ ผู้อ่านน่าจะพอเห็นภาพกันบ้างแล้ว ซึ่งเวลาเขียนโค้ดนี้เอง เราจะต้องเริ่มต้นด้วย class ที่ชื่อว่า “row” และสร้าง element ภายในด้วย prefix class เริ่มต้นว่า “col-หน่วยหน้าจอ-เลขคอลัมน์” สิ่งที่เราต้องระบุเพิ่มเติมลงไปก็มี 2 ค่าด้วยกันคือ หน่วยหน้าจอ และ เลขคอลัมน์</p>
+
+      <p>การทำงานของระบบ Grid ใน Bootstrap 3 นั้นแสดงได้จากตารางต่อไปนี้ </p>
+
+      <img src="images/Grid1.png"  >
+
+      <h3>ตัวอย่าง: การกำหนด Grid</h3>
+
+      <p>ตัวอย่างนี้ใช้ .col-md-* ซึ่งเป็นการแสดงผลในหน้าจอแบบเดสทอป โดยสามารถเปลี่ยนเป็นต่างๆ ได้ตามต้องการตามตารางด้านบน ซึ่งจะอยู่ภายใต้ .row </p>
+
+      <img src="images/Grid2.png"  >
 
       <h4><small>RECENT POSTS</small></h4>
 
-      <hr>
-
-      <h2>FORM</h2>
-
-      <h5><span class="glyphicon glyphicon-time"></span> Post by Admin, Feb 9, 2017.</h5>
-
-      <h5><span class="label label-success">Form</span></h5><br>
-
-      <p> วันนี้เราจะมาพูดถึงเรื่องการใช้งาน Form ของ Bootstrap ซึ่งก็ไม่ได้มีอะไรซับซ้อนมากมาย โดยเราแค่เรียกใช้ class “form-control” ใน textbox combo-box หรือ textarea แค่นี้ input ต่างๆ ก็แสดงผลในรูปแบบของ bootstrap โดย input ต่างๆ ที่มีการเรียกใช้ class “form-control” จะมีลักษณะที่โค้งมน และมีความกว้าง 100% ใน tag ที่ input นี้อยู่</p>
-
       
-
-      <hr>
 
 
 
@@ -225,9 +225,9 @@
 
         <div class="col-sm-10">
 
-          <h4>Pack <small>Feb 9, 2017, 11:12 AM</small></h4>
+          <h4>Pack <small>Feb 9, 2017, 2:30 AM</small></h4>
 
-          <p>งานทำได้ดีมากกคะ ทำตามแล้วใช้งานง่ายกว่าที่คิดเยอะเลย ขอบคุณค้าาาาาา.</p>
+          <p>Thank you very much</p>
 
           <br>
 
@@ -235,35 +235,17 @@
 
         <div class="col-sm-2 text-center">
 
-          <img src="../lab01/aboutme_2.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+          <img src="../lab01/Moive_2.jpg" class="img-circle" height="65" width="65" alt="Avatar">
 
         </div>
 
         <div class="col-sm-10">
 
-          <h4>Maprang <small>Feb 9, 2017, 8:25 PM</small></h4>
+          <h4>Harry <small>Feb 9, 2017, 8:25 PM</small></h4>
 
-          <p>ในที่สุดกว่าจะหาวิธีขั้นตอนนี้มาได้นานนมากก เลยค่ะ ขอบคุณที่สำหรับความรู้นะคะ</p>
+          <p>ขอบคุณมากเพื่อน</p>
 
           <br>
-
-          <p><span class="badge">1</span> Comment:</p><br>
-
-          <div class="row">
-
-            <div class="col-sm-2 text-center">
-
-              <img src="../lab01/aboutme_3.jpg" class="img-circle" height="65" width="65" alt="Avatar">
-
-            </div>
-
-            <div class="col-xs-10">
-
-              <h4>ปอย <small>Feb 9, 2017, 8:28 PM</small></h4>
-
-              <p>ฉันก็ด้วยยย</p>
-
-              <br>
 
             </div>
 
