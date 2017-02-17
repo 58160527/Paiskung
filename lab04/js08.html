@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image rollover</title>
+    <script language="JavaScript">
+        function highlightdocs() {
+            if (document.images) {
+                document.images["docs"].src = docsOn.src;
+            }
+        }
+
+        function unhighlightdocs() {
+            if (document.images) {
+                document.images["docs"].src = docsOff.src;
+            }
+        }
+        if (document.images) {
+            docsOn = new Image();
+            docsOn.src = "images/gg_color.jpg";
+            docsOff = new Image();
+            docsOff.src = "images/gg_gray.jpg";
+        }
+    </script>
+</head>
+
+<body>
+    <p>
+        <a href="http://www.google.co.th" onMouseOver="highlightdocs()" onMouseOut="unhighlightdocs()">
+            <img src="images/gg_gray.jpg" name=docs height=25 width=25 border=0></a>
+    </p>
+</body>
+
+</html>
